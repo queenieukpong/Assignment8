@@ -67,7 +67,7 @@ class BankAccount {
     }
 }
 
-// Simulation
+// Simulation Creating an Instance 
 let account = new BankAccount(123456789, "John", "Doe");
 
 account.deposit(1000);
