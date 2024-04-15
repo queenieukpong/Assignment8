@@ -1,4 +1,4 @@
-// create a simulation of a bank account system
+// create a simulation of a bank account system: Bank account and transaction class 
 class Transaction {
     constructor(type, amount) {
         this._type = type;
