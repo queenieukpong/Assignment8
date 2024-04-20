@@ -92,7 +92,7 @@ class BankAccount {
             });
             this._dailyWithdrawalAmount += amount;
         } else {
-            console.log("Withdrawal not allowed. Please check if amount exceeds balance or daily withdrawal limit.");
+            console.log("Withdrawals not allowed. Please check if amount exceeds balance or daily withdrawal limit.");
         }
     }
 
