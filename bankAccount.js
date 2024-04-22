@@ -25,13 +25,13 @@ toString() {
 
 // added daily withdrawal limit and amount that can be daily withdrawn
 class BankAccount {
-    constructor(accountNumber, firstName, lastName) {
+    constructor(accountNumber, firstName, lastName, dailyWithdrawalLimit=1000) {
         this._accountNumber = accountNumber;
         this._firstName = firstName;
         this._lastName = lastName;
         this._balance = 0;
         this._transactions = [];
-        this._dailyWithdrawalLimit = 1000; // Daily withdrawal limit in currency units
+        this._dailyWithdrawalLimit = dailyWithdrawalLimit; // Daily withdrawal limit in currency units
         this._lastWithdrawalDate = null; // Date of the last withdrawal
     }
 
