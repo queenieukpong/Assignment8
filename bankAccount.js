@@ -111,6 +111,10 @@ class BankAccount {
             console.log("Transfer not allowed. Please check if amount exceeds balance or if the recipient account is valid.");
         }
     }
+
+    getTransactions(){
+        return this.transactions;
+    }
 }
 
 // Simulation
