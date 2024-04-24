@@ -47,7 +47,7 @@ class BankAccount {
         return this._balance;
     }
 
-    // I am storing transactions as an array of objects containing type, amount, and timestamp properties.
+    // I am storing transactions as an array of objects containing properties: type, amount, and timestamp properties.
     get transactions() {
         return this._transactions.map(transaction => {
             return {
